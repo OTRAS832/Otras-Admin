@@ -7,7 +7,9 @@ declare module "axios" {
 }
 
 const httpClient = axios.create({
-  baseURL: "http://localhost:8068/",
+  baseURL: "https://otrasfinalbackend-31829298905.europe-west1.run.app/",
+  // baseURL: "http://localhost:8068/",
+  
   headers: {
     deviceType: "Web",
   },
